@@ -1,5 +1,10 @@
 /* Create and run Kernighan and Ritchie's famous "hello, world*
  * program:
+ *
+ * do you get a warning message from the compiler? if so what's needed
+ * to make it go away?
+ *
+ * answer: i don't get any warning using Termux on Android.
  */
 
 #include <stdio.h>
@@ -10,9 +15,3 @@ int main(void)
 
 	return 0;
 }
-
-/* Do you get a warning message from the compiler? If so what's needed
- * to make it go away?
- *
- * Answer: I don't get any warning using Termux on Android.
- */
