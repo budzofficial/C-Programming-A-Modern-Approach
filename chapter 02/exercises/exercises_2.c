@@ -1,10 +1,13 @@
-/* (a) Identify the directives and statements in this program
+/* Name: Exercises 2 Program
+ * Description:
+ * (a) Identify the directives and statements in this program
  * (b) What output does the program produce?
  *
  * Output:
  * Parkinson's Law:
  * Work expands so as to fill the time
  * available for its completion.
+ * Author: budzofficial
  */
 
 #include <stdio.h> // directive
