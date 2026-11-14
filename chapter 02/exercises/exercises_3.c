@@ -1,7 +1,10 @@
-/* Condense the dweight.c program by (1) replacing the assignments
+/* Name: Dweight Program
+ * Description:
+ * Condense the dweight.c program by (1) replacing the assignments
  * to height, length and width with initializers and (2) removing
  * the weight variable, instead calculating (volume + 165) / 166 within
  * the last printf
+ * Author: budzofficial
  */
 
 #include <stdio.h>
