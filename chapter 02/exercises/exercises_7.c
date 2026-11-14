@@ -1,4 +1,6 @@
-/* Which of the following are keywords in C?
+/* Name: Exercises 7
+ * Description:
+ * Which of the following are keywords in C?
  * (a) for
  * (b) If
  * (c) main
@@ -6,4 +8,5 @@
  * (e) while
  *
  * Answer: a and e
+ * Author: budzofficial
  */
