@@ -13,7 +13,7 @@ int main(void)
 	int a, b;
 	float x, y;
 
-	printf("A: %d\nB: %d\nX: %f\n Y: %f\n", a, b, x, y);
+	printf("A: %d\nB: %d\nX: %f\nY: %f\n", a, b, x, y);
 
 	return 0;
 }
