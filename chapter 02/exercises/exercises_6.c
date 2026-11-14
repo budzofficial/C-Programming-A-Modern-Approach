@@ -2,7 +2,7 @@
  * "__" or "_" + uppercase; double underscore anywhere is C++).
  */
 
-/* Name: Exercise 6
+/* Name: Exercises 6
  * Description:
  * Why is it not a good idea for an identifier to contain more than one
  * adjacent underscore (as in current__balance, for example)?
