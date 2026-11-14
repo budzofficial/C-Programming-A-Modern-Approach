@@ -1,4 +1,10 @@
-/* Why is it not a good idea for an identifier to contain more than one
+/* TODO: fix the "standard reservation" part (C reserves leading
+ * "__" or "_" + uppercase; double underscore anywhere is C++).
+ */
+
+/* Name: Exercise 6
+ * Description:
+ * Why is it not a good idea for an identifier to contain more than one
  * adjacent underscore (as in current__balance, for example)?
  *
  * Answer:
@@ -11,4 +17,5 @@
  * compiler definitions, standard library implementation, and macros 
  * (such as __maybe_unused), so defining custom names with __ risks
  * symbol collisions.
+ * Author: budzofficial
  */
