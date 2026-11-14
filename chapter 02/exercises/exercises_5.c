@@ -1,4 +1,5 @@
-/* Name: Exercises 5 Q&A
+/* Name: Exercises 5
+ * Description:
  * Which of the following are not legal C identifiers?
  * (a) 100_bottles
  * (b) _100_bottles
