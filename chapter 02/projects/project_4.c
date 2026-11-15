@@ -1,6 +1,7 @@
 /* Name: Project 4
- * Description: Write a program that asks the user to enter a dollar-
- * cents-amount, then display the amount with 5% tax added
+ * Description:
+ * Write a program that asks the user to enter a dollar-cents-amount,
+ * then display the amount with 5% tax added.
  * Author: budzofficial
  */
 
@@ -17,7 +18,7 @@ int main(void)
 
 	total = amount + (amount * TAX);
 
-	printf("Total amount with tax: $%.2f\n", total);
+	printf("With tax added: $%.2f\n", total);
 
 	return 0;
 }
