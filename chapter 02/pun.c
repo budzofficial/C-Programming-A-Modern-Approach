@@ -1,7 +1,6 @@
-/* Name: pun.c
+/* Name: Pun Program
  * Description: C Programming: A Modern Approach
- * Purpose: Prints a bad pun
- * Author: K. N. King
+ * Author: budzofficial
  */
 
 #include <stdio.h>
