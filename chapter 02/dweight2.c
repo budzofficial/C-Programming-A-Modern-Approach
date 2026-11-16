@@ -1,7 +1,5 @@
 /* Name: Dweight2 Program
  * Description: C Programming: A Modern Approach
- * Purpose: Computes the dimensional weight of a box from input
- * provided by the user.
  * Author: budzofficial
  */
 
