@@ -1,4 +1,8 @@
-/* Converts a Fahrenheit temperature to Celsius */
+/* Name: Celsius Program
+ * Description: C Programming: A Modern Approach
+ * Purpose: Converts a Fahrenheit temperature to Celsius.
+ * Author: budzofficial
+ */
 
 #include <stdio.h>
 
@@ -7,7 +11,7 @@
 
 int main(void)
 {
-	float fahrenheit, celsius;
+	float fahrenheit = 0.0f, celsius = 0.0f;
 
 	printf("Enter Fahrenheit temperature: ");
 	scanf("%f", &fahrenheit);
