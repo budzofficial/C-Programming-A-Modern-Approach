@@ -1,6 +1,5 @@
 /* Name: Dweight Program
  * Description: C Programming: A Modern Approach
- * Purpose: Computes the dimentional weight of a 12" x 10" x 8" box
  * Author: budzofficial
  */
 
