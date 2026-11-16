@@ -1,6 +1,5 @@
 /* Name: Celsius Program
  * Description: C Programming: A Modern Approach
- * Purpose: Converts a Fahrenheit temperature to Celsius.
  * Author: budzofficial
  */
 
