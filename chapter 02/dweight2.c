@@ -1,12 +1,15 @@
-/* Computes the dimensional weight of a 
- * box from input provided by the user 
+/* Name: Dweight2 Program
+ * Description: C Programming: A Modern Approach
+ * Purpose: Computes the dimensional weight of a box from input
+ * provided by the user.
+ * Author: budzofficial
  */
 
 #include <stdio.h>
 
 int main(void)
 {
-	int height, length, width, volume, weight;
+	int height = 0, length = 0, width = 0, volume = 0, weight = 0;
 
 	printf("Enter a height of a box: ");
 	scanf("%d", &height);
