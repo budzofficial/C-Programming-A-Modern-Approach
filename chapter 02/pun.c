@@ -1,4 +1,5 @@
 /* Name: pun.c
+ * Description: C Programming: A Modern Approach
  * Purpose: Prints a bad pun
  * Author: K. N. King
  */
