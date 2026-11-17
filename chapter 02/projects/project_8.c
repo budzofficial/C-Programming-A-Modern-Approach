@@ -1,13 +1,5 @@
 /* Name: Project 8
- * Description:
- * Write a program that calculates the remaining balance on a loan after
- * the first, second, third monthly payments.
- *
- * Display each balance with two digits after the decimal point. 
- * Hint: Each month, the balance is decreased by the amount of the pay-
- * ment, but increased by the balance times the monthly interest rate.
- * To find the monthly interest rate, convert the interest rate entered
- * by the user to a percentage and divide it by 12.
+ * Description: C Programming: A Modern Approach
  * Author: budzofficial
  */
 
