@@ -1,12 +1,5 @@
 /* Name: Project 7
- * Description:
- * Write a program that asks the user to enter a U.S. Dollar amount and
- * then shows how to pay that amount using the smallest number of
- * $20, $10, $55 and $1 bills.
- * Hint: Divide the amount by 20 to determine the number of $20 bills
- * needed, and then reduce the amount by the total value of the $20 
- * bills. Repeat for the other bill sizes. Be sure to use integer values
- * throughout, not floating-point numbers.
+ * Description: C Programming: A Modern Approach
  * Author: budzofficial
  */
 
@@ -17,7 +10,7 @@
 #define BILL_3 5
 
 int main(void) {
-	int amount, b_20, b_10, b_5, b_1;
+	int amount = 0, b_20 = 0, b_10 = 0, b_5 = 0, b_1 = 0;
 
 	printf("Enter a dollar amount: ");
 	scanf("%d", &amount);
