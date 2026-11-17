@@ -9,6 +9,7 @@
 #define A1 86
 #define A2 1040
 #define B 30.253
+#define C 83.162
 
 int main(void)
 {
@@ -39,6 +40,12 @@ int main(void)
 	 * After the decimal it prints 5 characters precision "02530".
 	 */
 	printf("%12.5e\n", B);
+
+	/* Output:
+	 *	83.1620
+	 * %.4f prints C (83.1620) with 4 characters precision "1620"
+	 */
+	printf("%.4f\n", C);
 
 	return 0;
 }
