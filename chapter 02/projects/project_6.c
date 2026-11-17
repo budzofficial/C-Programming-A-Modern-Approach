@@ -1,8 +1,5 @@
 /* Name: Project 6
- * Description:
- * Modify the program of Programming Project 5 so that the Polynomial
- * is evaluated using the following formula:
- * ((((3x + 2)x - 5)x - 1)x + 7)x - 6
+ * Description: C Programming: A Modern Approach
  * Author: budzofficial
  */
 
