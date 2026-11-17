@@ -1,13 +1,5 @@
 /* Name: Project 1
- * Description:
- * Write a program that uses printf to display the following picture
- * on the screen:
- *        *
- *       *
- *      *
- * *   *
- *  * *
- *   *
+ * Description: C Programming: A Modern Approach
  * Author: budzofficial
  */
 
