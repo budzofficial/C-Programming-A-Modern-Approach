@@ -1,7 +1,5 @@
 /* Name: Project 4
- * Description:
- * Write a program that asks the user to enter a dollar-cents-amount,
- * then display the amount with 5% tax added.
+ * Description: C Programming: A Modern Approach
  * Author: budzofficial
  */
 
