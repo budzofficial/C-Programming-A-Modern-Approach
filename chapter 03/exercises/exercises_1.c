@@ -1,6 +1,5 @@
 /* Name: Exercises 1
  * Description: C Programming: A Modern Approach
- * WARNING: This answer is work in progress (WIP)
  * Author: budzofficial
  */
 
@@ -10,7 +9,7 @@
 #define A2 1040
 #define B 30.253
 #define C 83.162
-
+#define D .0000009979
 int main(void)
 {
 	/* Output:
@@ -48,6 +47,20 @@ int main(void)
 	 * to reach required 4 precision.
 	 */
 	printf("%.4f\n", C);
+
+	/* Output:
+	 *      1e-06
+	 * %-6.2g prints D (1e-06) left-aligned in minimum field width
+	 * of 6.
+	 * Since "1e-06" is only 5 characters, printf pads it with 1
+	 * space after it prints "1e-06" so we get "1e-06 ".
+	 *
+	 * NOTE: For %g, the .2 is NOT decimal places. It means 2
+	 * significant digits (9.979e-7 rounds to 1.0e-6).
+	 * %g also removes trailing zeros, which is why it prints
+	 * "1e-06" instead of "1.0e-06".
+	 */
+	printf("%-6.2g\n", D);
 
 	return 0;
 }
