@@ -8,8 +8,7 @@
  * (c) Not equivalent. "%f " has a trailing space which will block
  * the program, waiting to consume whitespace until a non-whitespace
  * character is typed.
- * (d) Not equivalent. "%f,%f" requires the second float to
- * immediately follow the comma (1.0,2.0). "%f, %f" allows whitespace
- * after the comma (1.0, 2.0).
+ * (d) Equivalent. "%f,%f" -> "1.0,2.0" and "%f, %f" -> "1.0, 2.0" the
+ * space between ', ' are skipped by scanf.
  * Author: budzofficial
  */
