@@ -43,7 +43,9 @@ int main(void)
 
 	/* Output:
 	 *	83.1620
-	 * %.4f prints C (83.1620) with 4 characters precision "1620"
+	 * %.4f prints C (83.1620) with 4 characters precision "1620".
+	 * Since C only has 3 characters after the decimal it adds "0"
+	 * to reach required 4 precision.
 	 */
 	printf("%.4f\n", C);
 
