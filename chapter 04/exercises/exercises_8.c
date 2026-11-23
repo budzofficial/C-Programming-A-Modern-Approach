@@ -12,9 +12,9 @@
  *	The new one gives 10 - 0 = 10, and the outer % 10 turns that
  *	into 0. Same result.
  *
- * The outer % 10 is what fixes the multiple-of-10 problem from your
- * last question, so it does the same job as the "subtract 1 first"
- * trick.
+ * The outer % 10 is what fixes the multiple-of-10 problem from the
+ * last question (Exercises 7), so it does the same job as the
+ * "subtract 1 first" trick.
  *
  * There's also a rare edge case where the new version is better. 
  * If every digit entered is 0, then total is 0, and in C (0 - 1) % 10
