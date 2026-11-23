@@ -19,7 +19,7 @@ int main(void)
 	 *	(d): -3
 	 *
 	 * NOTE: Compiled with cc -O3 -std=c99 -Wall -Wextra -Werror
-	 * -pedantic -o exercises_5 exercises_5.c
+	 * -pedantic -o exercises_6 exercises_6.c
 	 */
 	printf("(a): %d\n", A);
 	printf("(b): %d\n", B);
