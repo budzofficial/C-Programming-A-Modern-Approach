@@ -14,9 +14,9 @@ int main(void)
 {
 	/* Output:
 	 *	(a): 1
-	 *	(b): -1
-	 *	(c): -1
-	 *	(d): 1
+	 *	(b): -1 or -2
+	 *	(c): -1 or -2
+	 *	(d): 1 or 2
 	 *
 	 * NOTE: Compiled with cc -O3 -std=c89 -Wall -Wextra -Werror
 	 * -pedantic -o exercises_3 exercises_3.c. Also the compiler
