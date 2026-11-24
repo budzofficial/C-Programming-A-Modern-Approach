@@ -1,0 +1,7 @@
+/* Name: Exercises 13
+ * Description: C Programming: A Modern Approach
+ * Answer:
+ * The expression ++i is equivalent to (i += 1). The value of both
+ * expressions is i after the increment has been performed.
+ * Author: K. N. King
+ */
