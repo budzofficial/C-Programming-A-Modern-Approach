@@ -7,12 +7,13 @@
 
 int main(void)
 {
-	int num = 0, num_2 = 0, num_3 = 0;
+	int digit_1 = 0, digit_2 = 0, digit_3 = 0;
 
 	printf("Enter a three-digit number: ");
-	scanf("%1d%1d%1d", &num, &num_2, &num_3);
+	scanf("%1d%1d%1d", &digit_1, &digit_2, &digit_3);
 
-	printf("The reversal is: %d%d%d\n", num_3, num_2, num);
+	printf("The reversal is: %d%d%d\n",
+			digit_3, digit_2, digit_3);
 
 	return 0;
 }
